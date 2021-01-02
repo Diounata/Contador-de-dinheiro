@@ -21,7 +21,7 @@ function verificar() {
 
             // Inserir as cédulas/moedas na página
             for (var timer = dinheiro[pos]; timer > 0; timer = timer - 1) {
-                resultado.innerHTML += `<img src="../imagens/dinheiro_valor_${dinheiro_amostra[pos]}.jpg" class="img-fluid ms-1 mb-2">`
+                resultado.innerHTML += `<img src="imagens/dinheiro_valor_${dinheiro_amostra[pos]}.jpg" class="img-fluid ms-1 mb-2">`
             }
         }
     }
