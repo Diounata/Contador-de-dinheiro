@@ -18,7 +18,7 @@
         <div class="row">
             <div class="col-2"></div>
 
-            <div class="col-8 bg-light div-principal rounded-3 p-3 m-0">
+            <div class="col-8 col-10-md bg-light div-principal rounded-3 p-3 m-auto mb-2">
                 <form action="index.html">
                     <label for="label-form" class="form-label">
                         <p class="h5 fw-normal"> Digite a quantidade de dinheiro: </p>
@@ -26,8 +26,10 @@
 
                     <input type="number" placeholder="$" id="label-form" class="form-control input-dinheiro mb-3">
 
-                    <input type="button" value="Verificar" onclick="verificar()" class="btn btn-outline-primary me-2 px-4">
-                    <input type="reset" value="Resetar" class="btn btn-outline-primary ms-2 px-4" onclick="resetar()">
+                    <div class="row">
+                        <input type="button" value="Verificar" onclick="verificar()" class="btn btn-outline-primary rounded-pill my-1 col-md-2 mx-md-1">
+                        <input type="reset" value="Resetar" class="btn btn-outline-primary rounded-pill my-1 col-md-2 mx-md-1" onclick="resetar()">
+                    </div>
                 </form>
 
                 <div class="resultado pt-2"></div>
